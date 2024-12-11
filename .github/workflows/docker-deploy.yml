@@ -27,6 +27,7 @@ jobs:
           context: .
           push: true
           tags: mattiaskdev/dreamy_engelbart:latest
+          platforms: linux/arm64
 
   deploy:
     runs-on: ubuntu-latest
